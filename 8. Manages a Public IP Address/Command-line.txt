@@ -1,0 +1,7 @@
+terraform init
+
+terraform validate
+
+terraform plan -out main.tfplan
+
+terraform apply main.tfplan

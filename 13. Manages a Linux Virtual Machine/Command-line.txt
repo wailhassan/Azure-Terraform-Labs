@@ -1,0 +1,14 @@
+terraform init
+
+terraform validate
+
+terraform plan -out main.tfplan
+
+terraform apply main.tfplan
+
+.
+.
+.
+
+# To Delete all Resources  
+terraform destroy -auto-approve
